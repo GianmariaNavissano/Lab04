@@ -6,9 +6,9 @@ public class TestModel {
 
 		Model model = new Model();
 		
-		/*
-		 * 	Write here your test model
-		 */
+		Corso c = model.getCorso("01KSUPG");
+		
+		System.out.println(c);
 
 	}
 
